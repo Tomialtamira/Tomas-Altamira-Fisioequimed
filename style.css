@@ -1,0 +1,429 @@
+/*Reset*/
+*{
+	margin: 0;
+	padding: 0;	
+	text-decoration: none;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+.body{
+	background-color:rgb(182,181,211);
+	width: 100%;	
+}
+/*Inicio Estilos de Header*/
+.header {
+	display:flex;	
+	justify-content: space-between;
+	background-color:rgb(108, 107, 167) ;
+	margin-top: 10px;
+	margin-right: 0px;
+}
+
+.title{
+	color: rgb(255, 255, 255);
+	font-family: 'Merriweather', serif;
+	font-size: 30px;	
+	display:flex;
+	align-items: center;	
+}
+.subtitle{
+	color: rgb(255, 255, 255);
+	font-family: 'Merriweather', serif;
+	font-size: 10px;		
+}
+.subtitle1{
+	color: rgb(255, 255, 255);
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	margin-top: 5px;	
+	justify-content: center
+}
+.tituloysub{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(108, 107, 167) ;
+	border-radius: 15px;
+	margin: 10px;
+	
+}
+.logotipoppal{
+	padding: 8px;
+	margin-left:5px;
+	width: 100px;
+	height: 100px;
+}
+.nav{
+	display: flex; 	
+	align-items: flex-end;
+	
+}
+.tags{	
+	margin-bottom: 3px;	  	
+	list-style: none;	
+	display: flex;	
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}	
+.h2{
+	font-family: 'Merriweather', serif;	
+	background-color: rgb(255, 255, 255) ;	
+    padding: 2px;	
+	font-size: 10px;
+	color:rgb(108, 107, 167);
+	border:1px solid;
+	border-color: rgb(108, 107, 167);
+}
+.h2:hover{
+	color: rgb(182,181,211);
+}
+
+/*Fin Estilo de header*/
+/* Inicio Estilo de contenido*/
+.contenido{	
+	margin-top: 10px;	
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;	
+}
+.contenido_border{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid rgb(108, 107, 167) ;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 90%;
+}
+.contenido_border_form{
+	background-image: url(/IMG/fondo\ contacto.jpg);
+	display: flex;	
+	border: 2px solid rgb(108, 107, 167) ;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 90%;
+	height: 100%;
+}
+.contenido_formulario{	
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 400px;
+	margin: 100px auto;
+	background: rgba(108, 107, 167, 0.9);
+	padding: 20px;
+}
+.input{
+	margin: 5px;
+}
+.input_button{
+	margin: 5px;
+}
+.input_button:hover{	
+    color: rgb(3, 0, 167);
+}
+.tags1{
+	background-color:  rgb(108, 107, 167);
+	padding: 5px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	list-style: none;	
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content:center;    
+}
+.img1{		
+    width: auto;
+	height: 200px;	
+}
+.img2{
+	border-radius: 15px;
+	padding: 0px;
+	width: 100%;	 
+	height: auto;
+}
+.img3{
+	display:flex;	
+	justify-content: center;	
+	background-color:rgba(255, 255, 255,0.5);	
+	width: 100%;
+	padding: none;
+	margin: none;
+}
+.img3_contenido{
+	height: 300px;
+	width: auto;
+}
+.img3_contenido_vid{
+	height: 158px;
+	width: 280px;
+}
+.img_bio{	
+	border-radius: 45px;
+	padding: 0px;	 
+	height:auto;
+	width: 300px;
+	margin: 10px;
+}
+.imagenes_quiro{
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(3, auto);
+	gap: 5px;
+	margin: 30px;
+}
+.textfisio{
+   font-family: 'Merriweather', serif;
+   color: rgb(255, 255, 255) ;
+   font-size: 14px;
+   margin: 30px;
+}
+.textfisiolistas{	
+	font-family: 'Merriweather', serif;
+	color: rgb(255, 255, 255) ;
+	font-size: 20px;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-bottom: 30px;
+ }
+/* Fin Estilo de contenido*/
+/* Inicio Estilo de pie de pagina*/
+.pie{	
+	background-color: rgb(108, 107, 167);
+	display: flex;
+	justify-content: center;	
+	align-items: center;	
+}
+.instagram{
+	display: flex;
+	margin: 15px;
+	width: 25px;
+	height: 25px;
+}
+.facebook{
+	display: flex;
+	margin: 15px;
+	width: 25px;
+	height: 25px;
+}
+.txtfoot{
+	text-decoration: underline;
+	font-family: 'Merriweather', serif;
+	color: rgb(255, 255, 255) ;
+	font-size: 10px;
+	margin: 20px;
+}
+.txtfoot1{
+	font-family: 'Merriweather', serif;
+	color: rgb(255, 255, 255) ;
+	font-size: 10px;
+	margin: 20px;
+}
+/* Fin Estilo de pie de pagina*/
+/*Inicio de Media querys*/
+@media screen and (min-width:768px){
+	.title{
+		color: rgb(255, 255, 255);
+		font-family: 'Merriweather', serif;
+		font-size: 70px;	
+		display:flex;
+		align-items: center;
+	}	
+	.logotipoppal{
+		padding: 8px;
+		margin-left:5px;
+		width: 170px;
+		height: 170px;
+	}
+	.subtitle{
+		color: rgb(255, 255, 255);
+		font-family: 'Merriweather', serif;
+		font-size: 25px;		
+	}	
+	.tituloysub{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		border: 3px solid rgb(108, 107, 167) ;
+		border-radius: 15px;
+		margin: 30px;		
+	}
+	.nav{
+		display: flex;
+		align-items: flex-end;
+	}
+	.tags{	
+		margin-bottom: 10px;    	
+		list-style: none;	
+		display: flex;
+		flex-direction: row;	
+		align-items: flex-end;
+	}	
+	.h2{
+		font-family: 'Merriweather', serif;	
+		background-image:linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(182,181,211) 50%);
+		background-position: right;
+		background-size: 200%;
+		background-repeat: no-repeat;
+		transition: background-position 0.1s ease;
+		padding: 7px;	
+		font-size: 20px;
+		color:rgb(108, 107, 167);
+		border:1px solid;
+		border-color: rgb(108, 107, 167);
+	}
+	.h2:hover{	
+		background-position: left;
+		color:rgb(255, 255, 255) ;	
+	}	
+	.textfisio{
+		font-family: 'Merriweather', serif;
+		color: rgb(255, 255, 255) ;
+		font-size: 20px;
+		margin: 50px;
+	}
+	.textfisiolistas{	
+		font-family: 'Merriweather', serif;
+		color: rgb(255, 255, 255) ;
+		font-size: 20px;
+		margin-right: 150px;
+		margin-left: 150px;
+		margin-bottom: 60px;
+	 }
+	.subtitle1{
+		color: rgb(255, 255, 255);
+		font-family: 'Merriweather', serif;
+		font-size: 25px;
+		margin-top: 10px;	
+		justify-content: center
+	}
+	.tags1{
+		background-color:  rgb(108, 107, 167);
+		padding: 15px;
+		margin-top: 60px;
+		margin-bottom: 30px;
+		list-style: none;	
+		display: flex;	
+		justify-content:center;    
+	}
+
+	.img1{		
+		width: auto;
+		height: 400px;	
+	}
+	.img3{
+		display:flex;	
+		justify-content: center;	
+		background-color:rgba(255, 255, 255,0.5);	
+		width: 100%;
+		padding: none;
+		margin: none;
+	}
+	.img3_contenido{
+		height: 700px;
+	}	
+	.img3_contenido_vid{
+		height: 315px;
+		width: 560px;
+	}
+	.img_bio{	
+		border-radius: 45px;
+		padding: 0px;	 
+		height: 600px;
+		width: auto;
+		margin: 10px;
+	}
+	.imagenes_quiro{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		gap: 20px;
+		margin: 30px;		
+	}
+	.vid1{
+		display:flex;	
+		justify-content: center;
+		background-color:rgb(255, 255, 255);	
+		width:100%;
+		height: auto;
+	}
+	.contenido{	
+		margin-top: 20px;	
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-direction: column;	
+	}
+	.contenido_border{
+		display: flex;
+		flex-direction: row;		
+		align-items: space-between;
+		border: 2px solid rgb(108, 107, 167) ;
+		border-radius: 15px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		width: 1400px;
+	} 
+	.contenido_border_form{
+		background-image: url(/IMG/fondo\ contacto.jpg);
+		display: flex;
+		justify-content: space-evenly;
+		border: 3px solid rgb(108, 107, 167) ;
+		border-radius: 15px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		width: 90%;
+		height: 100%;
+	}
+	.contenido_formulario{	
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 400px;
+		margin: 100px auto;
+		background: rgba(108, 107, 167, 0.9);
+		padding: 20px;
+	}
+
+
+	.pie{	
+		background-color: rgb(108, 107, 167);
+		display: flex;
+		justify-content: center;	
+		align-items: center;	
+	}
+	.instagram{
+		display: flex;
+		margin: 30px;
+		width: 50px;
+		height: 50px;
+	}
+	.facebook{
+		display: flex;
+		margin: 30px;
+		width: 50px;
+		height: 50px;
+	}
+	.txtfoot{
+		text-decoration: underline;
+		font-family: 'Merriweather', serif;
+		color: rgb(255, 255, 255) ;
+		font-size: 17px;
+		margin: 40px;
+	}
+	.txtfoot1{
+		font-family: 'Merriweather', serif;
+		color: rgb(255, 255, 255) ;
+		font-size: 17px;
+		margin: 40px;
+	}
+
+}
