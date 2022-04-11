@@ -398,7 +398,8 @@
 		background-color: rgb(108, 107, 167);
 		display: flex;
 		justify-content: center;	
-		align-items: center;	
+		align-items: center;
+		margin-bottom: 0px;
 	}
 	.instagram{
 		display: flex;
