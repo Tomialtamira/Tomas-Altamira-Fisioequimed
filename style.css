@@ -30,13 +30,6 @@
 	font-family: 'Merriweather', serif;
 	font-size: 10px;		
 }
-.subtitle1{
-	color: rgb(255, 255, 255);
-	font-family: 'Merriweather', serif;
-	font-size: 18px;
-	margin-top: 5px;	
-	justify-content: center
-}
 .tituloysub{
 	display: flex;
 	flex-direction: column;
@@ -73,9 +66,15 @@
 .navbar-light .navbar-nav .nav-link:hover{
 	color:rgba(255, 255, 255,0.5) ;
 }
-
 /*Fin Estilo de header*/
 /* Inicio Estilo de contenido*/
+.subtitle1{
+	color:  rgb(182,181,211);
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	margin-top: 5px;	
+	justify-content: center
+}
 .contenido{	
 	margin-top: 10px;	
 	margin-bottom: 10px;
@@ -123,6 +122,25 @@
 .input_button:hover{	
     color: rgb(3, 0, 167);
 }
+.h2{
+	font-family: 'Merriweather', serif;	
+	background-image:linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(182,181,211) 50%);
+	background-position: right;
+	background-size: 200%;
+	background-repeat: no-repeat;
+	transition: background-position 0.1s ease;
+	padding: 4px;
+	text-decoration: none;	
+	font-size: 13px;
+	color:rgb(108, 107, 167);
+	border:1px solid;
+	border-color: rgb(108, 107, 167);
+	justify-content: center;
+}
+.h2:hover{	
+	background-position: left;
+	color:rgb(255, 255, 255) ;	
+}	
 .tags1{
 	background-color:  rgb(108, 107, 167);
 	padding: 5px;
@@ -140,8 +158,14 @@
 .img2{
 	border-radius: 15px;
 	padding: 0px;
-	width: 100%;	 
+	width: 80%;	 
 	height: auto;
+	transition: all 1s;		
+}
+.img2:hover{
+	width: 100%;
+	height: auto;
+	z-index: index 100;
 }
 .img3{
 	display:flex;	
@@ -168,7 +192,7 @@
 }
 .imagenes_quiro{
     display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr ;
 	grid-template-rows: repeat(3, auto);
 	gap: 5px;
 	margin: 30px;
@@ -186,7 +210,7 @@
 	margin-left: 70px;
 	margin-right: 70px;
 	margin-bottom: 30px;
- }
+ } 
 /* Fin Estilo de contenido*/
 /* Inicio Estilo de pie de pagina*/
 .pie{	
@@ -275,7 +299,8 @@
 		background-size: 200%;
 		background-repeat: no-repeat;
 		transition: background-position 0.1s ease;
-		padding: 7px;	
+		padding: 7px;
+		text-decoration: none;	
 		font-size: 20px;
 		color:rgb(108, 107, 167);
 		border:1px solid;
@@ -300,7 +325,7 @@
 		margin-bottom: 60px;
 	 }
 	.subtitle1{
-		color: rgb(255, 255, 255);
+		color:  rgb(182,181,211);
 		font-family: 'Merriweather', serif;
 		font-size: 25px;
 		margin-top: 10px;	
@@ -326,11 +351,23 @@
 		background-color:rgba(182,181,211,0.5);	
 		width: 100%;
 		padding: none;
-		margin: none;
-	}
-	.img3_contenido{
-		height: 700px;
+		margin: none;		
 	}	
+	.img3_contenido{
+		height: 700px;			
+	}	
+	.img2{
+		border-radius: 15px;
+		padding: 0px;
+		width: 80%;	 
+		height: auto;
+		transition: all 1s;		
+	}
+	.img2:hover{
+		width: 100%;
+		height: auto;
+		z-index: index 100;
+	}
 	.img3_contenido_vid{
 		height: 315px;
 		width: 560px;
