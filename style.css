@@ -162,11 +162,7 @@
 	height: auto;
 	transition: all 1s;		
 }
-.img2:hover{
-	width: 100%;
-	height: auto;
-	z-index: index 100;
-}
+
 .img3{
 	display:flex;	
 	justify-content: center;	
