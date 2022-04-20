@@ -95,7 +95,7 @@
 	width: 90%;
 }
 .contenido_border_form{
-	background-image: url(/IMG/fondo\ contacto.jpg);
+	background-image: url(./IMG/fondo\ contacto.jpg);
 	display: flex;	
 	border: 2px solid rgb(108, 107, 167) ;
 	border-radius: 15px;
@@ -295,9 +295,9 @@
 		background-size: 200%;
 		background-repeat: no-repeat;
 		transition: background-position 0.1s ease;
-		padding: 7px;
+		padding: 4px;
 		text-decoration: none;	
-		font-size: 20px;
+		font-size: 17px;
 		color:rgb(108, 107, 167);
 		border:1px solid;
 		border-color: rgb(108, 107, 167);
@@ -406,7 +406,7 @@
 		width: 1400px;
 	} 
 	.contenido_border_form{
-		background-image: url(/IMG/fondo\ contacto.jpg);
+		background-image: url(./IMG/fondo\ contacto.jpg);
 		display: flex;
 		justify-content: space-evenly;
 		border: 3px solid rgb(108, 107, 167) ;
